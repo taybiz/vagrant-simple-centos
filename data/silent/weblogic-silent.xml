@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Silent installer option: -mode=silent -silent_xml=/home/me/silent.xml -log=silent.log -->
+<!-- This looks for a proxy and throws errors depending on the server it's being installed on. 
+		You'll see warnings and errors in the log. FYI -->
+<!-- Steve.Taylor@taybiz.com, 2015 -->
+<domain-template-descriptor>
+	<input-fields>
+		<data-value name="BEAHOME" value="/app/oracle/MW_11.1.1.7.0" />
+		<data-value name="INSTALL_NODE_MANAGER_SERVICE" value="no" />
+		<data-value name="COMPONENT_PATHS" value="WebLogic Server/Core Application Server|WebLogic Server/Administration Console|WebLogic Server/Configuration Wizard and Upgrade Framework|WebLogic Server/Web 2.0 HTTP Pub-Sub Server|WebLogic Server/WebLogic SCA|WebLogic Server/WebLogic JDBC Drivers|WebLogic Server/Third Party JDBC Drivers|WebLogic Server/WebLogic Server Clients|WebLogic Server/WebLogic Web Server Plugins|WebLogic Server/UDDI and Xquery Support|WebLogic Server/Server Examples|WebLogic Server/Evaluation Database|Oracle Coherence/Coherence Product Files" />
+		<data-value name="LOCAL_JVMS" value="/usr/java/jdk1.7.0_79"/>
+	</input-fields>
+</domain-template-descriptor>
